@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+body{
+    background: url(assets/bg1.jpg)no-repeat;
+}
+
+nav{
+    width: 100%;
+    height: 75px;
+    background-color: rgba(251 161 45 / 100%);
+    line-height: 50px;
+    padding: 0px 50px;
+    position: fixed;
+    z-index: 1;
+}
+
+nav .title a{
+    background:rgba(255,255,255, 0.8);
+    position: absolute;
+    border-radius: 10px;
+    padding: 8px;
+    margin-top: 7px;
+    font-size: 2.1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    color: black;
+}
+nav .title a:hover{
+    box-shadow: 5px 6px rgba(0, 0, 0, 0.6);
+    text-shadow: 1.5px 2.5px rgba(0, 0, 0, 0.6);
+}
+
+nav .title p{
+    float: left;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding-top: 10px;
+}
+
+nav ul li a{
+    background-color: rgba(134, 134, 134, 0.6);
+    color: rgb(59, 19, 96);
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24Px;
+    /* text-transform: uppercase; */
+    padding:0px 32px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 10px;
+    margin: 10px;
+    
+
+}
+nav ul li a:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+
+.image img{
+    width: 100%;
+    height: 0px auto;
+    justify-content: center;
+}
+
+/* /////////////////////////////////////////////////////// */
+.Form1{
+    background-color: rgba(218, 165, 32, 0.95);
+    display: inline-block;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+.img{
+    height: 35%;
+    width: 35%;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    margin-bottom: 25px;
+    border: 4px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.img:hover{
+    box-shadow: 0 0 20px 10px rgba(138, 43, 226, 0.6);
+}
+
+.description{
+    float: right;
+    font-size: 1.3rem;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 10px;
+    color:rgb(59, 19, 96);
+}
+.description a{
+    text-decoration: none;
+}
+
+.formtitle{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: rgb(59, 19, 96);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2rem;
+    text-decoration:none;
+}
+
+.Intro{
+    background-color: rgba(59, 19, 96, 0.95);
+    color: rgba(218, 165, 32, 0.9);
+    display: inline-block;
+    font-weight: bolder;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 180px;
+    padding: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    line-height: 40px;
+}
+
+#YourFuture{
+    margin: 0 0 10px 0;
+    text-decoration: underline; 
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* ///////////////////////////////////////////////////////// */
+
+.solid{
+    border-top: 10px solid rgb(255, 255, 255);
+}
+
+
+.Form2{
+    background-color: rgb(59, 19, 96 );
+    display: inline-block;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+.Form2 .formtitle a{
+    color: rgba(218, 165, 32, 0.9);;
+}
+
+
+.Form2 .description{
+    color: rgba(218, 165, 32, 0.9);;
+}
+
+.Form2 .img:hover{
+    box-shadow: 0 0 20px 10px rgba(218, 165, 32, 0.9);
+}
+
+#content{
+    background-color: rgba(218, 165, 32, 0.95);
+    text-align: center;
+    /* margin-left: 200px;
+    margin-right: 200px; */
+    margin-top: 200px;
+    border-radius: 10px;
+}
+
+#content h2{
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(59, 19, 96 );
+}
+
+#content :hover{
+    background-color:rgb(59, 19, 96 );
+    color: rgba(218, 165, 32, 0.9);
+    transition: 1s;
+    box-shadow: 0 0 20px 10px rgb(59, 19, 96 );
+    border-radius: 60px;
+    cursor: pointer;
+}
+
+/* //////////////////////////////////////////////////////////////// */
+
+
+.why{
+    display: inline-block;
+    background-image: url('assets/startup.jpg');
+    width: 1480px;
+    height: 800px;
+}
+
+.why .description2{
+    background-color: rgba(218, 165, 32,0.9);
+    margin: 70px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    line-height: 35px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+#whytitle{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 5rem;
+    text-decoration: underline;
+    text-shadow: 4px 5px white;
+}
+
+#whytitle:hover{
+    color: white;
+    text-shadow: 4px 5px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.contact #description3{
+    background-color: rgba(59, 19, 96, 0.9 );
+    line-height: 60px;
+    letter-spacing: 1.1px;
+
+}
+
+#logo{
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 0px;
+}
