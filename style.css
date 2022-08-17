@@ -202,8 +202,8 @@ nav ul li a:hover{
 .why{
     display: inline-block;
     background-image: url('assets/startup.jpg');
-    width: 1480px;
-    height: 800px;
+    width: 100%;
+    height: 100%;
 }
 
 .why .description2{
